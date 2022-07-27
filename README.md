@@ -1,24 +1,9 @@
-# README
+This is a test about how to use JWT as a authenticatication token on an API project
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
 
-* Ruby version
+Gems installed:
 
-* System dependencies
+gem "jwt", "2.4.1"
+gem "bcrypt", "3.1.18"
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
