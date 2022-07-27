@@ -1,5 +1,5 @@
 class AuthenticationController < ApplicationController
-    #POST
+    #POST /auth/login
     def login
         @user = User.find_by_email(params[:email])
         if @user.authenticate(params[:password]) #authenticate is a method from bcrypt Gem

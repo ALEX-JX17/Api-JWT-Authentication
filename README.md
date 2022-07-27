@@ -11,8 +11,10 @@ In the User model will be necesary to use:
     requiere "securerandom"     #to use bcrypt
     has_secure_password         #to encrypt the pass
 
-To add the hability to encode and decode a json web token we'll create a 
+To add the ability to encode and decode a json web token we'll create a 
     json_web_token.rb
-file in the controllers - concerns directory. Once we had created this functions, we'll need a function that let us to autheticate and for this example we will add it in the applicaction_controller.rb file.
+file in the controllers/concerns directory. Once we had created this functions, we'll need a function that let us to autheticate and for this example we will add it in the applicaction_controller.rb file.
 
-Now it is necessary to hace a controller for authenticate us. 
+Now it is necessary to have a controller for authenticate us. we'll generate a new controller: 
+    authentication_controller.rb
+and inside we'll add a login function
