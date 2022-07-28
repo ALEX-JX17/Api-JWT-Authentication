@@ -46,6 +46,6 @@ expected:
 by GET
 Throug the URL http://localhost:3000/user
 In the header, send:
-    Authorization: the token gotten
+    Authorization: the gotten token
 expected:
     To get a list of at least one record
