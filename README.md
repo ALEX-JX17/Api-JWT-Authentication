@@ -48,4 +48,4 @@ Throug the URL http://localhost:3000/user
 In the header, send:
     Authorization: the gotten token
 expected:
-    To get a list of at least one record
+    To get a list of users at least one record
